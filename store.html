@@ -1,0 +1,112 @@
+<html>
+<head>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  <style type="text/css">
+
+.navbar {
+background-color: black;
+}
+
+body {
+	background-image: url(http://bwass.org/bucket/board.jpg);
+}
+
+#Produto {
+position:initial;
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+
+#preco {
+   position: relative;
+    top: auto;
+    left: 400px;
+    height: 35px;
+	float: none;
+    width: 100%;
+}
+
+#principal {
+position:absolute;
+	width: 500px;
+	height: 200px;
+	float: left;
+}
+
+   </style>
+
+    <title>Produtos</title>
+  </head>
+<body>
+
+<div class="container">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md fixed-top navbar-dark">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2SupportedContent" aria-controls="navbar2SupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbar2SupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="store.html">Produtos</a>
+          </li>
+        </ul>
+        <a class="btn navbar-btn mx-2 text-white btn-outline-secondary" href="login.html">Login</a>
+      </div>
+  </nav>
+<br>
+<br>
+<br>
+
+<div class="bg-dark text-white p-5 mx-auto">
+	<font size="15" color="white" face="apple">Lista de produtos</font>
+	<form role="form">
+		<table class="table" id="lista">
+			<thead class="table-dark">
+				<tr>
+					<th scope="col">Nome do produto</th>
+					<th scope="col">Preço do produto</th>
+				</tr>
+			</thead>
+			<tbody class="text-white">
+        <tr>
+          <th>Laptop Dell</th>
+          <th>R$ 500
+            <a class="btn btn-success float-right" href="checkout.html">Comprar</a>
+          </th>
+        </tr>
+        <tr>
+          <th>Desktop HP</th>
+          <th>R$ 800
+            <a class="btn btn-success float-right" href="checkout.html">Comprar</a>
+          </th>
+        </tr>
+        <tr>
+          <th>Desktop Alienware</th>
+          <th>R$ 1.400
+            <a class="btn btn-success float-right" href="checkout.html">Comprar</a>
+          </th>
+        </tr>
+        <tr>
+          <th>Laptop Semp Toshiba</th>
+          <th>R$ 900
+            <a class="btn btn-success float-right" href="checkout.html">Comprar</a>
+          </th>
+        </tr>
+		</tbody>
+		</table>
+	</form>
+</div>
+</div>
+
+</body>
+</html>

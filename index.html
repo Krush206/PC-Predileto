@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  <style type="text/css">
+
+#navbar {
+background-color: #202020;
+}
+
+#rodape {
+margin-bottom: 500px;
+}
+
+.navbar {
+background-color: black;
+}
+
+.bg_pic {
+background-image: url(https://cdn.pixabay.com/photo/2014/05/03/01/03/macbook-336704_960_720.jpg);
+background-size: cover;
+}
+
+.bg_intro {
+background: rgba(74, 74, 73, 0.8)
+}
+
+  </style>
+
+	<title>E-commerce</title>
+</head>
+
+<body class="text-center bg_pic">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md fixed-top navbar-dark">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2SupportedContent" aria-controls="navbar2SupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbar2SupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="store.html">Produtos</a>
+          </li>
+        </ul>
+        <a class="btn navbar-btn mx-2 text-white btn-outline-secondary" href="login.html">Login</a>
+      </div>
+  </nav>
+
+  <!-- Intro -->
+  <div class="text-white col-12 col-lg-8 mx-auto bg_intro py-5 my-5">
+      <font size="7" color="white" face="apple"> <p class="text-black">Nossa empresa tem o objetivo de vender computadores.</p></font>
+  </div>
+
+  <div class="container py-5">
+    <h1 class="text-white" style="background: rgba(134, 18, 18, 0.6)">Olá, tudo bem? Cadastre-se ou faça seu login para comprar seu computador.</h1>
+  </div>
+
+<!-- Footer -->
+<footer class="p-4 text-light bg_intro">
+      <div class="row">
+        <div class="my-3 mx-5 text-left">
+          <h3>E-commerce</h3>
+          <p class="my-4 text-info">Rua Alcântara, 113 - Vila Guilherme</p>
+          <p class="text-info">(11) 2905-1128</p>
+          <a class="btn btn-primary" href="register.html">Cadastre-se</a>
+        </div>
+        <div class="my-3 mx-auto">
+          <h3>Entre em contato conosco</h3>
+          <form>
+            <fieldset class="form-group my-3">
+              <input type="email" class="form-control" id="Input Email" placeholder="Email"> </fieldset>
+            <fieldset class="form-group my-3">
+              <input type="message" class="form-control" id="Input Message" placeholder="Mensagem"> </fieldset>
+            <button type="submit" class="btn btn-outline-primary">Enviar</button>
+          </form>
+        </div>
+        <div class="my-3 mx-5">
+          <img width="280px" height="200px" src="http://bwass.org/bucket/foto.png">
+        </div>
+      </div>
+  </footer>
+
+</body>
+</html>
